@@ -49,7 +49,7 @@ function analyzeSalesData(data, options) {
     }
     if (!Array.isArray(data.purchase_records) || data.purchase_records.length === 0) {
         throw new Error('Массив purchase_records пуст');
-}
+    }
 // ——————————————————————————————————————————————
 
 
